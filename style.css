@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.gradient-text {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff6ec4, #7873f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#el{
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    
+}
+#ment{
+    color: white;
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    
+}
+#elem{
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #B2FEFA 0%, #0ED2F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 420px;
+    height: 106px;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    
+    margin-bottom: 40px;
+}
+#te{
+    width: 560px;
+    height: 60px;
+    color: white;
+    font-family: Cabin;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 560px;
+    height: 60px;
+        
+    
+}
+
+body {
+    transition: background 1s ease-in-out;
+  }
+  
+  .bg-first {
+    background-color:  #474851;
+  }
+  
+  .bg-second {
+    background-color: #181123;
+  }
+  .bg-three{
+    background-color: red;
+  }
+#n{
+    color: white;
+    font-family: Roboto Condensed;
+}
+#img{
+    display: none;
+    width: 200px; 
+    height: auto;
+    margin: 40px 800px;
+    animation: fadeIn 2s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  
+  
